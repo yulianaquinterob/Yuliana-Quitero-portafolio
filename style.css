@@ -104,6 +104,14 @@ header a{
     width: 100%;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 
 @media (max-width: 600px) {
   body {
